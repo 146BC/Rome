@@ -3,28 +3,28 @@
 
 Rome enables users to store and retrieve assets through a simple API.
 
-###Setting up using Docker
-#####Install [docker](https://www.docker.com/) & [docker-compose](https://docs.docker.com/compose/)
+### Setting up using Docker
+##### Install [docker](https://www.docker.com/) & [docker-compose](https://docs.docker.com/compose/)
 ```
 docker-compose build
 docker-compose up
 ```
 
-###Setting up on OSX
+### Setting up on OSX
 
-###Install NPM & Node
+### Install NPM & Node
 ````
 brew install node
 ````
 
-####Install & run MongoDB
+#### Install & run MongoDB
 
 ```
 brew install mongodb
 mongod --fork --config /usr/local/etc/mongod.conf
 ```
 
-####Install Rome
+#### Install Rome
 
 ```
 git clone git@github.com:146BC/Rome.git rome
